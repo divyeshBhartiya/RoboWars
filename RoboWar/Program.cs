@@ -5,8 +5,6 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello, Robo!!!");
-
         var envDimensions = Console.ReadLine()?.Trim().Split(' ').Select(int.Parse).ToArray();
         var positonalParams = Console.ReadLine()?.Trim().Split(' ');
         var commands = Console.ReadLine() ?? String.Empty;
